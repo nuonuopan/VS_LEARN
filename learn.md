@@ -13,4 +13,16 @@
     `git config --list`
 
 
-- 进入项目vscode👉源代码管理👉初始化储存库(项目下的东西即保存了)👉有个√，是推；填入master，默认是村早master里【这里是存在本地仓库】
+- 进入项目vscode👉源代码管理👉初始化储存库(项目下的东西即保存了)👉有个√，是推；填入master，默认是村早master里【这里是存在本地仓库】,当左下角master没有*号时，点击上传。。。但我这里不管有没有开v都无法更新上去
+
+#TODO
+- 网页上传github    √
+- 本地git代码上传
+- 有一个bilibili提供的软件，试试能不能上传
+
+
+- 网页上穿github
+先创建仓库，右上+号，new repository，填写仓库名、是否要read.md、license文件，确定即可
+【下载】创建好后，绿色的code，download zip可以下载整个repository
+【上传】Add file👉Create new file（当前目录创建全新的文件） 或者 Upload files👉选择上传的文件👉填写更新描述👉commit即可
+【上传-新建文件夹】路径写：code/test.md github不允许增空文件夹，写一个文件放着，之后进入这个文件【上传】即可  [参考](https://www.csdn.net/tags/Mtzacg1sNTk0Mi1ibG9n.html)
