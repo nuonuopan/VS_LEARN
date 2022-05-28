@@ -26,3 +26,33 @@
 【下载】创建好后，绿色的code，download zip可以下载整个repository
 【上传】Add file👉Create new file（当前目录创建全新的文件） 或者 Upload files👉选择上传的文件👉填写更新描述👉commit即可
 【上传-新建文件夹】路径写：code/test.md github不允许增空文件夹，写一个文件放着，之后进入这个文件【上传】即可  [参考](https://www.csdn.net/tags/Mtzacg1sNTk0Mi1ibG9n.html)
+
+
+git是一个语言，只要在cmd上使用即可，在项目的当前文件夹下右键 get bash here打开cmd
+- 本地git代码上传 [参考：非常详尽](https://blog.csdn.net/weixin_35805266/article/details/113073974?utm_term=desktop%20github%20%E7%99%BB%E5%BD%95%E4%B8%8D%E4%B8%8A&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-113073974-null-null&spm=3001.4430)
+- 最常用的几个命令+git代码上传步骤：
+    - git 初始化的指令 
+         `git init`   
+         等于源代码管理的  初始化git库
+    - 把东西放到暂存区
+         `git add .`  
+         等于源代码管理的   √ 提交   
+    - 把暂存区的内容放到历史区
+         `git commit -m "comment"` 等于源代码管理的   
+         把我们暂存区里面的文件变成一个历史版本,历史版本要写一下comment，简洁明了告诉自己更新、修改了什么
+    - 第一次传入先新建库+手动添加仓库地址
+        第一次传入要在网页端新建一个库，建库好了以后会有一个.git地址，第一次同步需要先添加仓库地址
+        `git remote add origin https://github.com/guoxiang910223/ceshi1913.git`
+    - 第一次上传
+        `git push -u origin master ` 
+        第一次上传表示把内容上传到 origin 这个地址,master 是上传到远程的 master 分支
+    - 第二次上传
+        直接`git push`
+以上的命令可以在项目的vscode里输入，也可以在项目文件夹里打开get bash here输入
+
+真神奇，要不行的时候都不行，要可以的时候什么方法都可以了
+
+
+- vscode上传整理一份 
+- git代码上传整理一份  ＜（＾－＾）＞
+
