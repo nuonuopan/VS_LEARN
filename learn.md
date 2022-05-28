@@ -18,10 +18,10 @@
 #TODO
 - 网页上传github    √
 - 本地git代码上传   √
-- vscode上传github 
+- vscode上传github  √
 
 
-- 网页上穿github
+- 网页上传github
 先创建仓库，右上+号，new repository，填写仓库名、是否要read.md、license文件，确定即可
 【下载】创建好后，绿色的code，download zip可以下载整个repository
 【上传】Add file👉Create new file（当前目录创建全新的文件） 或者 Upload files👉选择上传的文件👉填写更新描述👉commit即可
@@ -60,7 +60,10 @@ git是一个语言，只要在cmd上使用即可，在项目的当前文件夹�
     - 推送  👉  源代码管理的  右上角`...`→推送
     vscode上传的难处在于能不能连接到github的库，如果可以，直接点点点不用输代码就可以完成
 
-- vscode上传整理一份 
-- git代码上传整理一份  ＜（＾－＾）＞
+- vscode上传整理一份  √
+- git代码上传整理一份  √
 
-genggai
+- 忽略某些文件
+    - 在当前的文件目录下创建一个 .gitignore
+    - 复制不上传文件的相对路径：鼠标放在文件上[右键]👉复制相对路径
+    - 把路径填入.gitignore即可，路径要用 /  
