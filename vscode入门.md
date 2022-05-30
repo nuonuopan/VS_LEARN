@@ -68,6 +68,11 @@
 - 如果用户和工作空间设置了同样的项目，局部的会覆盖全局的设置
 
 
+#####【同步 vscode 设置】
+- [参考1](https://blog.csdn.net/Yal_insist/article/details/122361113?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-5-122361113-blog-122908148.pc_relevant_paycolumn_v3&spm=1001.2101.3001.4242.4&utm_relevant_index=7)
+- [参考2](https://blog.csdn.net/qq_39742704/article/details/122908148)
+
+
 ####美化
 #####【自动化排版】
 - black 库 pip install black
@@ -216,7 +221,7 @@
     - `Code-runner:Save File Before Run`改为 `true`
     - `Files: Auto Save Delay` 是更改自动保存的间隔时间，可以设置的久一点，减小拖垮时间；我设置为10分钟自动保存一次
 
-#TODO: 同步 vscode 设置（bilibili 视频）
+
 
 ####学习文档：
 ##### - 【markdown学习文档】
