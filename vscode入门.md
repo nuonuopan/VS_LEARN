@@ -100,6 +100,9 @@
   "python.autoComplete.addBrackets": true,
   ```
 
+#####【ctrl+,】打开设置👉搜索zoom👉打勾
+
+  实现✔按住ctrl+滚轮对字体大小进行缩放
 
 ####插件
 #####【Material Icon Theme】
@@ -220,6 +223,14 @@
     - 把`File:Auto Save`改为`afterDelay`
     - `Code-runner:Save File Before Run`改为 `true`
     - `Files: Auto Save Delay` 是更改自动保存的间隔时间，可以设置的久一点，减小拖垮时间；我设置为10分钟自动保存一次
+
+####参考连接：
+- [详尽的插件安装和配置修改](https://www.bilibili.com/video/BV1mA4y1Q7P5?spm_id_from=333.999.0.0)
+- [anaconda环境变量配置+调用上级目录+代码调试](https://www.bilibili.com/video/BV1YL411L7Sg?spm_id_from=333.999.0.0)
+- [项目虚拟环境配置1](https://www.bilibili.com/video/BV15h411S7vq?spm_id_from=333.999.0.0)
+- [项目配置虚拟环境2](https://www.bilibili.com/video/BV1H7411U7LF?p=3)
+- [代码调试+black配置](https://www.bilibili.com/video/BV1RF411e7Pe?spm_id_from=333.999.0.0)
+- [github]
 
 
 

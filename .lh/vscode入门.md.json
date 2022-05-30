@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 60,
+            "activePatchIndex": 65,
             "patches": [
                 {
                     "date": 1653894494622,
@@ -248,6 +248,26 @@
                 {
                     "date": 1653901416095,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,8 +68,10 @@\n - 如果用户和工作空间设置了同样的项目，局部的会覆盖全局的设置\r\n \r\n \r\n #####【同步 vscode 设置】\r\n+- [参考1](https://blog.csdn.net/Yal_insist/article/details/122361113?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-5-122361113-blog-122908148.pc_relevant_paycolumn_v3&spm=1001.2101.3001.4242.4&utm_relevant_index=7)\r\n+- [参考2](https://blog.csdn.net/qq_39742704/article/details/122908148)\r\n \r\n \r\n ####美化\r\n #####【自动化排版】\r\n"
+                },
+                {
+                    "date": 1653902034764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -220,10 +220,17 @@\n     - 把`File:Auto Save`改为`afterDelay`\r\n     - `Code-runner:Save File Before Run`改为 `true`\r\n     - `Files: Auto Save Delay` 是更改自动保存的间隔时间，可以设置的久一点，减小拖垮时间；我设置为10分钟自动保存一次\r\n \r\n+####参考连接：\r\n+- [详尽的插件安装和修改](https://www.bilibili.com/video/BV1mA4y1Q7P5?spm_id_from=333.999.0.0)\r\n+- [anaconda环境变量配置+调用上级目录+代码调试](https://www.bilibili.com/video/BV1YL411L7Sg?spm_id_from=333.999.0.0)\r\n+- [项目虚拟环境配置1](https://www.bilibili.com/video/BV15h411S7vq?spm_id_from=333.999.0.0)\r\n+- [项目配置虚拟环境2](https://www.bilibili.com/video/BV1H7411U7LF?p=3)\r\n+- [代码调试+black配置](https://www.bilibili.com/video/BV1RF411e7Pe?spm_id_from=333.999.0.0)\r\n \r\n \r\n+\r\n ####学习文档：\r\n ##### - 【markdown学习文档】\r\n   - *[参考](https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)\r\n \r\n"
+                },
+                {
+                    "date": 1653902069572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -221,9 +221,9 @@\n     - `Code-runner:Save File Before Run`改为 `true`\r\n     - `Files: Auto Save Delay` 是更改自动保存的间隔时间，可以设置的久一点，减小拖垮时间；我设置为10分钟自动保存一次\r\n \r\n ####参考连接：\r\n-- [详尽的插件安装和修改](https://www.bilibili.com/video/BV1mA4y1Q7P5?spm_id_from=333.999.0.0)\r\n+- [详尽的插件安装和配置修改](https://www.bilibili.com/video/BV1mA4y1Q7P5?spm_id_from=333.999.0.0)\r\n - [anaconda环境变量配置+调用上级目录+代码调试](https://www.bilibili.com/video/BV1YL411L7Sg?spm_id_from=333.999.0.0)\r\n - [项目虚拟环境配置1](https://www.bilibili.com/video/BV15h411S7vq?spm_id_from=333.999.0.0)\r\n - [项目配置虚拟环境2](https://www.bilibili.com/video/BV1H7411U7LF?p=3)\r\n - [代码调试+black配置](https://www.bilibili.com/video/BV1RF411e7Pe?spm_id_from=333.999.0.0)\r\n"
+                },
+                {
+                    "date": 1653902692016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -226,8 +226,9 @@\n - [anaconda环境变量配置+调用上级目录+代码调试](https://www.bilibili.com/video/BV1YL411L7Sg?spm_id_from=333.999.0.0)\r\n - [项目虚拟环境配置1](https://www.bilibili.com/video/BV15h411S7vq?spm_id_from=333.999.0.0)\r\n - [项目配置虚拟环境2](https://www.bilibili.com/video/BV1H7411U7LF?p=3)\r\n - [代码调试+black配置](https://www.bilibili.com/video/BV1RF411e7Pe?spm_id_from=333.999.0.0)\r\n+- [github]\r\n \r\n \r\n \r\n ####学习文档：\r\n"
+                },
+                {
+                    "date": 1653902818255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,10 +98,11 @@\n   ```\r\n   \"python.analysis.completeFunctionParens\": true,\r\n   \"python.autoComplete.addBrackets\": true,\r\n   ```\r\n+#####【ctrl+,】打开设置👉搜索zoom👉打勾\r\n+  实现✔按住ctrl+滚轮对字体大小进行缩放\r\n \r\n-\r\n ####插件\r\n #####【Material Icon Theme】\r\n   - 图标主题；设置 👉 文件图标主题\r\n \r\n"
+                },
+                {
+                    "date": 1653902894702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,11 @@\n   ```\r\n   \"python.analysis.completeFunctionParens\": true,\r\n   \"python.autoComplete.addBrackets\": true,\r\n   ```\r\n+\r\n #####【ctrl+,】打开设置👉搜索zoom👉打勾\r\n+\r\n   实现✔按住ctrl+滚轮对字体大小进行缩放\r\n \r\n ####插件\r\n #####【Material Icon Theme】\r\n"
                 }
             ],
             "date": 1653894494622,
