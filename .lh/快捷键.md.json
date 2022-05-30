@@ -1,0 +1,18 @@
+{
+    "sourceFile": "快捷键.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1653895099402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1653895099402,
+            "name": "Commit-0",
+            "content": "|快捷键|内容|\r\n|---|---|\r\n|` Ctrl+Shift+` ` |新建终端|\r\n|` Ctrl+, ` |打开设置|\r\n\r\n|` Shift+Alt+↓ ` |复制这行向下|\r\n\r\n|`Ctrl+Shift+k`|编辑器删除单行|\r\n\r\n|`Ctrl+D`|选择多个同样名字的字段|\r\n\r\n|`F5`|调试|\r\n\r\n\r\n"
+        }
+    ]
+}

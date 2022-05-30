@@ -1,0 +1,18 @@
+{
+    "sourceFile": "demo2/test_2.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1653895099403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1653895099403,
+            "name": "Commit-0",
+            "content": "import sys\r\n\r\n# NOTE:把当前test_2.py存在的文件夹的上一级文件夹添加到路径搜索系统里去\r\nsys.path.append(\"./\")\r\n\r\n\r\nfrom demo1 import test_1\r\n\r\ntest_1.print_hello()\r\n"
+        }
+    ]
+}
